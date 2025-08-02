@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Counter App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="side-panel left">
+            <button id="greenCircleBtn" class="circle-btn green">
+                <span id="greenCircleCount">0</span>
+            </button>
+            <button id="greenCardBtn" class="square-btn green">Green Card</button>
+        </div>
+
+        <div class="middle-panel">
+            <h2>iPad Time</h2>
+            <div id="ipadTimerDisplay" class="timer-display">00:00:00</div>
+            <div class="control-buttons">
+                <button id="resetBtn">Reset</button>
+                <button id="newDayBtn">New Day</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="playBtn">Play</button>
+            </div>
+            <div id="noIpadPopup" class="popup">No iPad</div>
+        </div>
+
+        <div class="side-panel right">
+            <button id="warningBtn" class="warning-btn">
+                Warning <span id="warningCount">0</span>
+            </button>
+            <button id="yellowCardBtn" class="card-btn yellow">Yellow Card</button>
+            <button id="redCardBtn" class="card-btn red">Red Card</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
